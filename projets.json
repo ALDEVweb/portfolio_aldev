@@ -52,7 +52,7 @@
         "pictos":["p-html", "p-css", "p-js"],
         "librairies": [],
         "objectif": "Intégration html et css de la page d'accueil ainsi que la page feu puis ajout du formulaire en fin de module (11-03-24)",
-        "lien": "https://titou1206.github.io/4-Elmts/"
+        "lien": "https://aldevweb.github.io/4_elements/"
     },
     {
         "titre": "Morpion",
@@ -63,7 +63,7 @@
         "pictos":["p-html", "p-css", "p-js"],
         "librairies": [],
         "objectif": "Exercice permettant la prise en main de javascript",
-        "lien": "https://titou1206.github.io/Morpion/"
+        "lien": "https://aldevweb.github.io/morpion/"
     },
     {
         "titre": "Application Météo",
@@ -74,7 +74,7 @@
         "pictos":["p-html", "p-css", "p-js"],
         "librairies": [],
         "objectif": "Prise en main du fonctionnement d'une API et d'une grid CSS",
-        "lien": "https://titou1206.github.io/Meteo/"
+        "lien": "https://aldevweb.github.io/appli_meteo/"
     },
     {
         "titre": "Dehors",
@@ -85,7 +85,7 @@
         "pictos":["p-html", "p-css", "p-js"],
         "librairies": [],
         "objectif": "Vérifier les acquis sur la sémantique, l'intégration dynamique et le responsive",
-        "lien": "https://titou1206.github.io/Dehors/"
+        "lien": "https://aldevweb.github.io/dehors/"
     },
     {
         "titre": "Men Sportswear",
@@ -96,6 +96,6 @@
         "pictos":["p-html", "p-css", "p-css", "p-js", "p-leaflet"],
         "librairies": ["swiperjs"],
         "objectif": "Développement d'un site web incluant une page d'accueil et un template 'détail produits' statiques, un template dynamique pour la catégorie 'chaussures - baskets'. Le site doit être responsive, optimisé pour le référencement et l'accessibilité. Maquettes, images et pictogrammes fournis.",
-        "lien": "https://titou1206.github.io/M_S/"
+        "lien": "https://aldevweb.github.io/m_s/"
     }
 ]
