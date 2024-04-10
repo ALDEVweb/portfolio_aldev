@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio de Antoine LAUGIER | Développeur Web Créatif et Passionné</title>
+    <meta name="description" content="Proche de Lyon et Clermont-Ferrand, entre Saint Etienne et le Puy en Velay, développeur web passionné avec une expertise dans la création de sites web modernes et performants. Explorez mes projets, mes compétences et découvrez comment je peux donner vie à vos idées en ligne.">
+    <link rel="stylesheet" href="librairies/swiper/swiper-bundle.css">
+    <link rel="stylesheet" href="librairies/leaflet/dist/leaflet.css">
+    <link rel="stylesheet" href="librairies/aos-master/dist/aos.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" type="image/ico" href="assets/Logo-AL-developpement-web-black.ico">
+</head>
+<body data-theme="dark" data-style="normal">
+    <!-- Loader -->
+    <div id="loader">
+        <div class="logo-static"></div>
+        <div class="logo-moving"></div>
+        <div></div>
+    </div>
+    <!-- header -->
+    <header class="large-12 flex align-center justify-between">
+        <!-- picto a afficher format smartphone -->
+        <a href="#hero" class="d-none logo-burger" title="accueil"><div class="logo logo-header curs-point"></div></a>
+        <!-- burger a afficher au format smartphone -->
+        <div class="burger d-none" title="menu">
+            <span class="top"></span>
+            <span class="middle"></span>
+            <span class="bottom"></span>
+        </div>
+        <!-- menu -->
+        <div class="menu large-12">
+            <div class="flex justify-between align-center large-12">
+                <!-- header gauche -->
+                <div class="flex align-center gap16">
+                    <!-- nav -->
+                    <nav class="pages">
+                        <ul class="flex align-center gap16">
+                            <li class="logo-menu"><a href="#hero" title="logo de ALDEV"><div class="logo logo-header curs-point"></div></a></li>
+                            <li><a class="nav-page" href="#projets" title="lien vers la section projets"># Projets</a></li>
+                            <li><a class="nav-page" href="#about" title="lien vers la section à propos de moi"># A propos</a></li>
+                            <li><a class="nav-page" href="#services" title="lien vers la section services"># Services</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <!-- header droit -->
+                <div class="flex align-center justify-end gap16">
+                    <!-- nav reseaux / contact -->
+                    <nav class="reseaux">
+                        <ul class="flex align-center gap16">
+                            <!--  <li><a class="curs-point" href="tel:+33666529277" title="lien pour m'appeler"><div class="picto p-phone"></div></a></li> -->
+                            <li><a class="curs-point" href="mailto:laugierantoine@gmail.com" title="lien pour m'envoyer un mail"><div  class="picto p-mail"></div></a></li>
+                            <li><a target="_blank"  class="curs-point" href="https://www.linkedin.com/in/antoine-laugier/" title="lien vers ma page linkedIn - Nouvelle fenêtre"><div class="picto p-linkedin "></div></a></li>
+                            <li><a target="_blank"  class="curs-point" href="https://github.com/Titou1206" title="lien vers ma page GitHub - Nouvelle fenêtre"><div class="picto p-github"></div></a></li>    
+                            <li>
+                                <label for="switch-access" title="Typographie accessibilité">
+                                <div id="button-access" class="p-access curs-point">
+                                    <input type="checkbox" class="checkbox" id="switch-access" name="switch-access">
+                                </div>
+                                </label>
+                            </li> 
+                            <li>
+                                <div class="switch-mode" title="switch dark/light mode">
+                                    <label class="switch-label">
+                                    <input type="checkbox" class="checkbox" id="switch-mode" name="switch-mode">
+                                    <span class="slider"></span>
+                                    </label>
+                                </div>
+                            </li>    
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- hero -->
+    <section id="hero" class="hero large-12 flex menu-blur">
+        <!-- div titre -->
+        <div class="hero-titre large-10 small-11 flex justify-around align-center mrlauto">
+            <h2 data-aos="fade-up" data-aos-duration="3000" class="text-center anim-scroll-h2"><span class="span-blue">A</span>ntoine<br><span class="span-maj"><span class="span-blue">L</span>AUGIER</span></h2>
+            <h1 data-aos="fade-up" data-aos-duration="3000" class="text-center anim-scroll-h1"><span class="span-maj"><span class="span-blue"><</span> Developpeur Web <span class="span-blue">></span></span><br>// Full Stack</h1>
+        </div>
+        <!-- bouton CV -->
+        <div class="large-12">
+            <div class="container-btn-hero large-10 small-11 flex justify-around mrlauto align-center">
+                <!-- picto scroll 
+                <div class="picto p-fleche"></div> -->
+                <!-- scroll animate -->
+                <div class="container-chevron-anim flex justify-center align-center">
+                    <p>Scroll</p>
+                    <p class="chevron-anim">˅</p>
+                </div>
+                <div>
+                    <a class="bouton" target="_blank" href="assets/CV_Antoine_LAUGIER_Développeur_Web.pdf" title="lien de téléchargement de mon CV au format PDF - Nouvelle fenêtre">Téléchargez mon CV</a>
+                </div> 
+            </div>
+        </div>
+    </section>
+    <!-- main -->
+    <main>
+        <div class="back-logo"></div>
+        <!-- portfolio -->
+        <section class="projets large-10 medium-12 small-12 mrlauto menu-blur" id="projets">
+            <!-- titre -->
+            <div class="large-12 mrlauto flex justify-center">
+                <h3 data-aos="fade-up" data-aos-anchor-placement="top-bottom"># Projets</h3>
+            </div>
+            <!-- Slider main container -->
+            <div class="swiper mrlauto">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper"> 
+
+                    <!-- Slides -->
+
+                </div> 
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>      
+        <!-- a propos -->
+        <section class="about large-10 small-11 mrlauto mb160 menu-blur" id="about">
+            <!-- titre -->
+            <div class="large-12 mrlauto flex justify-center">
+                <h3 data-aos="fade-up"># A propos de moi</h3>
+            </div>
+            <!-- div text et image -->
+            <div class="container-about large-12 flex justify-around align-center mb80">
+                <div class="about-desc large-5 medium-12 small-12">
+                    <p class="para-about">Avec une expérience de 15 ans dans le commerce automobile et informatique, je me suis tourné vers le développement web. Diplômé en microélectronique et systèmes embarqués, ma passion pour la programmation a toujours été présente. Grâce à mes années dans le commerce, j'ai développé une certaine polyvalence technique et une compréhension des besoins des clients, que je souhaite mettre à profit dans le domaine du développement web.</p>
+                    <p class="para-about mt32 mb80">Je suis conscient de mes compétences en programmation et de ma capacité d'adaptation, et je suis motivé à continuer à apprendre et à évoluer dans ce domaine en constante évolution. Mon objectif est de contribuer humblement à la création d'applications web fonctionnelles et conviviales, en utilisant mes compétences pour répondre aux besoins des utilisateurs de manière efficace et créative.</p>
+                    <!-- bouton CV -->
+                    <div data-aos="fade-up" data-aos-anchor-placement="center-bottom" class="container-bouton flex justify-center">
+                        <a class="bouton" target="_blank" href="assets/CV_Antoine_LAUGIER_Développeur_Web.pdf" title="lien de téléchargement de mon CV au format PDF - Nouvelle fenêtre">Téléchargez mon CV</a>
+                    </div> 
+                </div>
+             
+                <div data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-duration="3000" class="img-moi"><!-- <img src="assets/img-moi.jpg" alt="Photo de moi en train de travailler"> --> </div>
+            </div>
+        </section>
+        <!-- services -->
+        <section class="services large-10 mrlauto mb160 menu-blur" id="services">
+            <!-- titre -->
+            <div class="large-12 mrlauto flex justify-center">
+                <h3 data-aos="fade-up" data-aos-anchor-placement="top-bottom"># Mes services</h3>
+            </div>
+            <div class="container-services flex justify-around align-center">
+                <div>
+                    <div class="mt32">
+                        <h4 class="text-center">Intégration Web</h4>
+                        <p class="mt8 text-center">Intégrations HTML et CSS respectueuses des standards du web</p>
+                    </div>
+                    <div class="mt32">
+                        <h4 class="text-center">Gestion de projet web</h4>
+                        <p class="mt8 text-center">Site vitrine, e-commerce, application web</p>
+                    </div>
+                    <div class="mt32">
+                        <h4 class="text-center">Dynamisme des pages</h4>
+                        <p class="mt8 text-center">Animations subtiles et gestion dynamique du contenu</p>
+                    </div>
+                    <div class="mt32">
+                        <h4 class="text-center">Responsive design</h4>
+                        <p class="mt8 text-center">Compatibilité tout support (desktop, tablette  smartphone)</p>
+                    </div>
+                    <div class="mt32">
+                        <h4 class="text-center">Référencement naturel</h4>
+                        <p class="mt8 text-center">Des pages propres en respectant la sémantique pour un référencement optimal</p>
+                    </div>
+                    <div class="mt32">
+                        <h4 class="text-center">Création / gestion de base de données</h4>
+                        <p class="mt8 text-center">Stockage et organisation efficaces des données d'application pour répondre à divers besoins.</p>
+                    </div>
+                </div>
+                <div class="img-comp-serv">
+                    <div data-aos="fade-up" data-aos-anchor-placement="bottom-bottom" data-aos-duration="2000" class="mrlauto img-services"></div>
+                    <div class="competence-container">
+                        <div class="justify-center flex gap32">
+                            <div title="HTML" class="picto-service p-html"> </div>
+                            <div title="CSS" class="picto-service p-css"> </div>
+                            <div title="JavaScript" class="picto-service p-js"> </div>
+                            <div class="picto-service p-sass"> </div>
+                            <div class="picto-service p-php"> </div>
+                            <div title="Symfony" class="picto-service p-sf"> </div>
+                            <div class="picto-service p-mysql"> </div>
+                            <div title="React" class="picto-service p-react"> </div>
+                        </div>
+                        <div class="justify-center flex gap32 align-center mt32">
+                            <div class="picto-service p-leaflet"> </div>
+                            <p class="p-comp">swiperjs</p>
+                            <p class="p-comp">AOS</p>
+                        </div>
+                        <div class="justify-center flex gap32 align-center mt32">
+                            <div title="VScode" class="picto-service p-vs"> </div>
+                            <div title="GitHub" class="picto-service p-github"> </div>
+                            <div title="Filezilla" class="picto-service p-filezilla"> </div>
+                            <div title="Figma" class="picto-service p-figma"> </div>
+                            <div title="Notion" class="picto-service p-notion"> </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+       
+        <!-- footer -->
+        <footer class="flex large-10 medium-10 small-11 justify-between align-center mrlauto menu-blur">
+            <!-- footer gauche -->
+            <div class="footer-gauche flex medium-12">
+                <div class="aldev flex justify-center align-center">
+                    <a href="#hero" title="retour à l'accueil"><div class="logo-footer logo curs-point"></div></a>
+                    <h4 class="mt16 text-center">Antoine LAUGIER<br>Developpement Web</h4>
+                </div>
+                <!-- map -->
+                <div id="map"></div>
+            </div>
+            <!-- footer centre -->
+            <div class="footer-centre">
+                <address>
+                    <!--  <a class="flex nowrap align-center gap16" target="_blank" href="https://maps.app.goo.gl/HwSWq7MH8z5nQkMK6"><div class="picto p-localisation"></div>Lotissement Chanibeau<br>43600 Sainte-Sigolène</a>
+                    <a class="mt16 flex nowrap align-center gap16" href="tel:+33666529277" title="lien pour m'appeler"><div class="picto p-phone"></div>06 66 52 92 77</a> -->
+                    <a class="mt16 flex nowrap align-center gap16" href="mailto:laugierantoine@gmail.com" title="lien pour m'envoyer un mail"><div class="picto p-mail"></div>laugierantoine@gmail.com</a>
+                    <a class="mt16 flex nowrap align-center gap16" target="_blank" href="https://www.linkedin.com/in/antoine-laugier/" title="lien vers ma page linkedIn - Nouvelle fenêtre"><div class="picto p-linkedin "></div>linkedin.com/in/antoine-laugier</a>
+                    <a class="mt16 flex nowrap align-center gap16" target="_blank" href="https://github.com/Titou1206" title="lien vers ma page GitHub - Nouvelle fenêtre"><div class="picto p-github"></div>github.com/Titou1206</a>
+                </address>
+            </div>
+            <!-- footer droit -->
+            <div class="footer-droit">
+                <nav>
+                    <ul>
+                        <li class="mt16"><a href="#hero" title="retour à l'accueil"># Accueil</a></li>
+                        <li class="mt16"><a href="#projets" title="lien vers la section projets"># Projets</a></li>
+                        <li class="mt16"><a href="#about" title="lien vers la section à propos de moi"># A propos</a></li>
+                        <li class="mt16"><a href="#services" title="lien vers la section services"># Services</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="large-12 mt40">
+                <p class="mention text-center"><span>©</span> Antoine LAUGIER <span>-</span> 2024 <span>-</span> Tous droits réservés</p>
+            </div>
+        </footer>
+    </main>
+    <div class="lumiere"></div>
+    <script src="librairies/swiper/swiper-bundle.js" defer></script>
+    <script src="librairies/leaflet/dist/leaflet.js" defer></script>
+    <script src="librairies/aos-master/dist/aos.js" defer></script>
+    <script src="app.js" defer></script>  
+</body>
+</html>
