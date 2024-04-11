@@ -8,7 +8,7 @@
         "pictos":["p-html", "p-css"],
         "librairies": [],
         "objectif": "Prise en main des langages HTML et CSS, puis rendu responsive par la suite",
-        "lien": "https://titou1206.github.io/Ruche/"
+        "lien": "https://aldevweb.github.io/ruche/"
     },
     {
         "titre": "Interno",
@@ -19,7 +19,7 @@
         "pictos":["p-html", "p-css"],
         "librairies": [],
         "objectif": "Application des connaissances HTML et CSS, mise en place du responsive design et découverte d'un formulaire de contact",
-        "lien": "https://titou1206.github.io/interno/"
+        "lien": "https://aldevweb.github.io/interno/"
     },
     {
         "titre": "MNTN",
@@ -30,7 +30,7 @@
         "pictos":["p-html", "p-css", "p-js"],
         "librairies": [],
         "objectif": "Evaluation permettant de valider les acquis en HTML et CSS, avec notamment la gestion des flex-box et des positions. Ajout par la suite des animations javasrcipt et du menu burger",
-        "lien": "https://titou1206.github.io/MNTN/"
+        "lien": "https://aldevweb.github.io/mntn/"
     },
     {
         "titre": "M.M.T",
@@ -41,7 +41,7 @@
         "pictos":["p-html", "p-css", "p-js"],
         "librairies": [],
         "objectif": "Exercice décontracté de création d'un site absurde. Prise en main des outils IA tel ChatPT ou Bing puis ajout du menu burger en fin de module avec javascript(28-03-24)",
-        "lien": "https://titou1206.github.io/M.M.T/"
+        "lien": "https://aldevweb.github.io/mmt/"
     },
     {
         "titre": "4 Elements",
