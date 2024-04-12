@@ -10,27 +10,103 @@
     <link rel="stylesheet" href="librairies/leaflet/dist/leaflet.css">
     <link rel="shortcut icon" type="image/ico" href="assets/Logo-AL-developpement-web-black.ico">
 </head>
-<body>
-    <header>
-        <div><img src="" alt=""></div>
-        <p>⛌</p>
+<body data-theme="green" data-style="normal">
+    <!-- Loader -->
+    <div id="loader">
+        <div class="logo-static"></div>
+        <div class="logo-moving"></div>
+        <div></div>
+    </div>
+    <!-- header -->
+    <header class="large-12 flex align-center justify-between">
+        <!-- picto a afficher format smartphone -->
+        <a href="#hero" class="d-none logo-burger" title="accueil"><div class="logo anim-moov logo-header curs-point"></div></a>
+        <!-- burger a afficher au format smartphone -->
+        <div class="burger d-none" title="menu">
+            <span class="top"></span>
+            <span class="middle"></span>
+            <span class="bottom"></span>
+        </div>
+        <!-- menu -->
+        <div class="menu large-12">
+            <div class="flex justify-between align-center large-12">
+                <!-- header gauche -->
+                <div class="flex align-center gap16">
+                    <!-- nav -->
+                    <nav class="pages">
+                        <ul class="flex align-center gap16">
+                            <li class="logo-menu"><a href="#hero" title="logo de ALDEV"><div class="logo anim-moov logo-header curs-point"></div></a></li>
+                            <li><a class="nav-page anim-moov" href="" title="lien de retour au portfolio">Retour au portfolio</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <!-- header droit -->
+                <div class="flex align-center justify-end gap16">
+                    <!-- nav reseaux / contact -->
+                    <nav class="reseaux">
+                        <ul class="flex align-center gap16">
+                            <!--  <li><a class="curs-point" href="tel:+33666529277" title="lien pour m'appeler"><div class="picto p-phone"></div></a></li> -->
+                            <li><a class="curs-point" href="mailto:antoine.laugier.dev@gmail.com" title="lien pour m'envoyer un mail"><div  class="picto anim-moov p-mail"></div></a></li>
+                            <li><a target="_blank"  class="curs-point" href="https://www.linkedin.com/in/antoine-laugier/" title="lien vers ma page linkedIn - Nouvelle fenêtre"><div class="picto anim-moov p-linkedin "></div></a></li>
+                            <li><a target="_blank"  class="curs-point" href="https://github.com/ALDEVweb" title="lien vers ma page GitHub - Nouvelle fenêtre"><div class="picto anim-moov p-github"></div></a></li>    
+                            <li>
+                                <label for="switch-access" title="Typographie accessibilité">
+                                <div id="button-access" class="p-access curs-point anim-moov">
+                                    <input type="checkbox" class="checkbox" id="switch-access" name="switch-access">
+                                </div>
+                                </label>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
     </header>
-    <h1>Projet MOOVIZY</h1>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore quam animi autem provident dicta esse sequi unde tempora perferendis odio! Soluta esse dolorum quidem, eaque hic distinctio nisi veniam debitis?</p>
-    <div><img src="assets/moovizy/img_pres.png" alt="smartphone avec l'application moovizy affiché"></div>
-    <h2>Personna</h2>
-    <div><img src="" alt=""></div>
-    <p></p>
-    <h2>Userflow</h2>
-    <div><img src="assets/moovizy/Userflow.png" alt="userflow de l'application"></div>
-    <h2>Wireframe</h2>
-    <div><img src="assets/moovizy/Wireframe.png" alt="userflow de l'application"></div>
-    <h2>Moodboard</h2>
-    <div><img src="assets/moovizy/Moodboard.png" alt="userflow de l'application"></div>
-    <h2>HighFi</h2>
-    <div><img src="assets/moovizy/highfi_gauche.png" alt="2 écrans de l'apploication sur smartphone"></div>
-    <div><img src="assets/moovizy/highfi_droite.png" alt="2 écrans de l'apploication sur smartphone"></div>
-    <h2>Version desktop</h2>
-    <div><img src="assets/moovizy/desktop.png" alt="pc portable avec l'application moovizy affiché"></div>
+    <main>
+        <section class="large-10 small-11 mrlauto flex justify-center">
+            <h1 class="titre-moov">Projet MOOVIZY</h1>
+            <div class="large-12 mrlauto flex justify-around">
+                <p class="pres-titre-moov">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore quam animi autem provident dicta esse sequi unde tempora perferendis odio! Soluta esse dolorum quidem, eaque hic distinctio nisi veniam debitis?</p>
+                <div class="img-titre-moov"><img src="assets/moovizy/img_pres.png" alt="smartphone avec l'application moovizy affiché"></div>
+            </div>
+        </section>
+        <section class="large-10 small-11 mrlauto">
+            <h3 class="mrlauto">Personna</h3>
+            <div class="flex space-arround">
+                <div><img src="assets/moovizy/Personna.png" alt="personna de l'application"></div>
+                <div>
+                    <p></p>
+                </div>
+            </div>
+        </section>
+        <section class="large-10 small-11 mrlauto">
+            <h3 class="mrlauto">Userflow</h3>
+            <div><img src="assets/moovizy/Userflow.png" alt="userflow de l'application"></div>
+        </section>
+        <section class="large-10 small-11 mrlauto">
+            <h3 class="mrlauto">Wireframe</h3>
+            <div><img src="assets/moovizy/Wireframe.png" alt="wireframe de l'application"></div>
+        </section>
+        <section class="large-10 small-11 mrlauto">
+            <h3 class="mrlauto">Moodboard</h3>
+            <div><img src="assets/moovizy/Moodboard.png" alt="moodboard de l'application"></div>
+        </section>
+        <section class="large-10 small-11 mrlauto">
+            <h3 class="mrlauto">HighFi</h3>
+            <div class="flex space-arround">
+                <div><img src="assets/moovizy/highfi_gauche.png" alt="2 écrans de l'application sur smartphone"></div>
+                <div><img src="assets/moovizy/highfi_droite.png" alt="2 écrans de l'application sur smartphone"></div>
+            </div>
+        </section>
+        <section class="large-10 small-11 mrlauto">
+            <h3 class="mrlauto">Version desktop</h3>
+            <div><img src="assets/moovizy/desktop.png" alt="pc portable avec l'application moovizy affiché"></div>
+        </section>
+    </main>
+    <footer class="large-10 small-11 mrlauto flex justify-center">
+        <a href="">« Retour au portfolio</a>
+    </footer>
+    <script src="librairies/aos-master/dist/aos.js" defer></script>
+    <script src="app.js" defer></script>  
 </body>
 </html>
