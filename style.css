@@ -629,16 +629,11 @@ footer {
 
 /* moovizy */
 .titre-moov{
-  margin-top: 160px;
-  margin-bottom: 120px;
+  margin-top: 120px;
+  margin-bottom: 80px;
 }
-.pres-titre-moov{
-  width: 300px;
-}
-.img-titre-moov{
-  width: 300px;
-}
-.img-titre-moov img{
+
+.img-small-moov img{
   width: 100%;
   height: auto;
   object-fit: cover;
