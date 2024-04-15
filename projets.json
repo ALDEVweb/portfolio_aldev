@@ -66,16 +66,6 @@
         "lien": "https://aldevweb.github.io/4_elements/"
     },
     {
-        "titre": "MY Market",
-        "image": "market.jpg",
-        "description": "Découvrez et gérez une gamme complète de produits sur My Market avec une interface simple et efficace.",
-        "date": "15-02-2024",
-        "pictos":["p-html", "p-css", "p-js"],
-        "librairies": [],
-        "objectif": "Mise en pratique des algorythmes javascript (filtre, tri, gestion dynamique)",
-        "lien": "https://aldevweb.github.io/my_market/"
-    },
-    {
         "titre": "Morpion",
         "image": "morpion.jpg",
         "description": "Prenez un moment de détente avec notre mini-jeux de morpion",
