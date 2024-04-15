@@ -822,6 +822,7 @@ les resolutions d'ecrans*/
     .footer-droit ul { display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 16px;}
     .footer-gauche{ flex-direction: column; justify-content: center;}
     
+   
   }
 
   @media screen and (min-width: 751px) and (max-width: 999px) {
@@ -906,6 +907,9 @@ les resolutions d'ecrans*/
       opacity: 0;
     }
 
+
+
     .mt32-small {margin-top: 32px;}
     .small-center {justify-content: center;}
+
   }
