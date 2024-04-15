@@ -639,6 +639,8 @@ footer {
   object-fit: cover;
 }
 
+.b-moov{ font-weight: 700; margin-top: 8px;}
+
 
 
 /*Generation des classes pour la largeur des colonnes selon 
@@ -905,4 +907,5 @@ les resolutions d'ecrans*/
     }
 
     .mt32-small {margin-top: 32px;}
+    .small-center {justify-content: center;}
   }
