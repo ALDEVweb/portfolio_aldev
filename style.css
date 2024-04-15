@@ -641,6 +641,8 @@ footer {
 
 .b-moov{ font-weight: 700; margin-top: 8px;}
 
+.small-img{display: none;}
+
 
 
 /*Generation des classes pour la largeur des colonnes selon 
@@ -911,5 +913,7 @@ les resolutions d'ecrans*/
 
     .mt32-small {margin-top: 32px;}
     .small-center {justify-content: center;}
+    .large-img{display: none;}
+    .small-img{display: block;}
 
   }
