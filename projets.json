@@ -2,12 +2,12 @@
     {
         "titre": "Moovizy 2.0",
         "image": "moovizy.jpg",
-        "description": "'La Ruche', découvrez nos miels traditionnels et respectueux, fruits d'un engagement profond envers l'apiculture durable.",
+        "description": "Concept d'une nouvelle version de l'application mobile Moovizy pour Saint-Étienne Métropole, axée sur l'intermodalité des transports",
         "type": "Projet de module UI/UX",
         "date": "15-01-2024",
         "pictos":["p-figma"],
         "librairies": [],
-        "objectif": "Prise en main de l'outil Figma, et des principes d'interfaces et experiences utilisateurs.",
+        "objectif": "Ce projet nous a permis de prendre en main l'outil de conception Figma et à comprendre les besoins des utilisateurs, à formuler des problématiques pertinentes et à concevoir des solutions innovantes.",
         "lien": "https://aldevweb.github.io/portfolio_aldev/moovizy"
     },
     {
