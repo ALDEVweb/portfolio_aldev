@@ -1,5 +1,16 @@
 [
     {
+        "titre": "Moovizy 2.0",
+        "image": "moovizy.jpg",
+        "description": "'La Ruche', découvrez nos miels traditionnels et respectueux, fruits d'un engagement profond envers l'apiculture durable.",
+        "type": "Projet de module UI/UX",
+        "date": "15-01-2024",
+        "pictos":["p-figma"],
+        "librairies": [],
+        "objectif": "Prise en main de l'outil Figma, et des principes d'interfaces et experiences utilisateurs.",
+        "lien": "https://aldevweb.github.io/portfolio_aldev/moovizy"
+    },
+    {
         "titre": "La Ruche",
         "image": "ruche.jpg",
         "description": "'La Ruche', découvrez nos miels traditionnels et respectueux, fruits d'un engagement profond envers l'apiculture durable.",
