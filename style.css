@@ -633,7 +633,7 @@ footer {
   margin-bottom: 80px;
 }
 
-.img-small-moov img{
+.img-moov{
   width: 100%;
   height: auto;
   object-fit: cover;
@@ -903,4 +903,6 @@ les resolutions d'ecrans*/
       transform: translateX(-20px);
       opacity: 0;
     }
+
+    .mt32-small {margin-top: 32px;}
   }
