@@ -1,0 +1,35 @@
+[
+    {
+        "titre": "Epic Clash: Lost Dungeon",
+        "image": "combat.jpg",
+        "description": "Epic Clash: Lost Dungeon est un jeu de combat multijoueur où les joueurs créent et contrôlent un personnage. Ils combattent et avancent à travers des pièces pour atteindre la sortie. Perdre tous les points de vie signifie la mort du personnage et la fin de la partie.",
+        "type": "Projet Back",
+        "date": "Mai 2024",
+        "pictos":["p-html", "p-css", "p-js", "p-php"],
+        "librairies": [],
+        "objectif": "programmation orientée objet, prise en main de la session et gestion en AJAX, et application de la méthode de travail : analyse du cahier des charges, définition du modèle de données et de l'ergonomie, création des classes associées, spécification des contrôleurs et des templates.",
+        "lien": "http://combat.alaugier.mywebecom.ovh/jeu_combat/afficher_jeu.php"
+    },
+    {
+        "titre": "TechoTb",
+        "image": "ticket.jpg",
+        "description": "TechoTb est une application de ticketing permettant aux clients de faire et suivre des demandes d'assistance. Les vendeurs créent des comptes clients et enregistrent des ventes. Les clients ouvrent des tickets et les techniciens y répondent.",
+        "type": "Projet Back",
+        "date": "Juin 2024",
+        "pictos":["p-html", "p-css", "p-js", "p-php"],
+        "librairies": [],
+        "objectif": "Sécurisation des comptes, gestion avancée du système de messagerie, gestion des champs en mode objet.",
+        "lien": "http://tickets.alaugier.mywebecom.ovh/ticketing/afficher_accueil.php"
+    },
+    {
+        "titre": "Pizz'@ la carte",
+        "image": "pizza.jpg",
+        "description": "Pizz'@ la carte lance une application de pizza sur mesure où les clients choisissent la taille, le type de pâte, la base (tomate ou crème), et les ingrédients. Ils peuvent modifier leurs choix à tout moment et finaliser leur commande en un clic pour le paiement.",
+        "type": "Projet Back",
+        "date": "Juin 2024",
+        "pictos":["p-html", "p-css", "p-js", "p-php"],
+        "librairies": ["swiperjs"],
+        "objectif": "Gestion avancée des comptes (hashage des mots de passe, vérification des mails par token, gestion des mots de passe oubliés), intégration de la gestion d'envoi d'e-mails, exploration approfondie du principe d'héritage.",
+        "lien": "http://pizza.alaugier.mywebecom.ovh/pizza/afficher_elaboration.php"
+    }
+]

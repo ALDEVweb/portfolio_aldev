@@ -106,9 +106,9 @@ switchAccess.addEventListener("change",(e)=>{
 
 /* swiper */
 
-function initSwiper(){
+function initSwiperFront(){
     /* swiper init */
-    const swiper = new Swiper('.swiper', {
+    const swiperFront = new Swiper('#swiperFront', {
         // Optional parameters
         direction: 'horizontal',
         loop: false,
@@ -134,38 +134,79 @@ function initSwiper(){
             }
         },
         pagination: {
-            el: '.swiper-pagination',
+            el: '#paginationFront',
+        },
+    });
+}
+function initSwiperBack(){
+    /* swiper init */
+    const swiperBack = new Swiper('#swiperBack', {
+        // Optional parameters
+        direction: 'horizontal',
+        loop: false,
+        // Default parameters
+        slidesPerView: 1,
+        spaceBetween: 20,
+        // Responsive breakpoints
+        breakpoints: {
+            // when window width is >= 320px
+            760: {
+                slidesPerView: 2,
+                spaceBetween: 30
+            },
+            // when window width is >= 480px
+            1300: {
+                slidesPerView: 3,
+                spaceBetween: 40
+            },
+            // when window width is >= 640px
+            1800: {
+                slidesPerView: 4,
+                spaceBetween: 50
+            }
+        },
+        pagination: {
+            el: '#paginationBack',
         },
     });
 }
 
 /* projets dynamique */
-fetch("projets.json")
+fetch("projets_front.json")
 .then(ret=>{
     return ret.json()
 })
 .then(projets=>{
-    createSlide(projets)
-    initSwiper()
-    flipCard()
+    createSlideFront(projets)
+    initSwiperFront()
+    flipCardFront()
+})
+fetch("projets_back.json")
+.then(ret=>{
+    return ret.json()
+})
+.then(projets=>{
+    createSlideBack(projets)
+    initSwiperBack()
+    flipCardBack()
 })
 
 
-function createSlide(projets){
+function createSlideFront(projets){
 // Role : crée les slides projet dans le swiper
 // parametre : projets - fichier json avec les éléments de chaque projet
 // retour : rien
-    let swiper = document.querySelector(".swiper-wrapper")
+    let swiper = document.getElementById("wrapperFront")
     swiper.innerHTML = ""
     projets.forEach(projet => {
         let pics = recupPicto(projet.pictos)
         let libs = recupLib(projet.librairies)
-        swiper.innerHTML += `<div class="swiper-slide">
+        swiper.innerHTML += `<div class="swiper-slide slide-front">
             <div class="card-inner">
                 <div class="card-front">
                     <div>
                         <h4 class="large-11 mrlauto text-center">${projet.titre}</h4>
-                        <div class="projet-img mt32"><img src="assets/captures-projets/${projet.image}" alt="copie d'écran du projet ${projet.titre}"></div>
+                        <div class="projetFront-img mt32"><img src="assets/captures-projets/${projet.image}" alt="copie d'écran du projet ${projet.titre}"></div>
                         <p class="large-11 mrlauto mt32">${projet.description}</p>
                     </div>
                     <div class="large-11 mrlauto flex justify-between mt32">
@@ -188,6 +229,44 @@ function createSlide(projets){
         </div>`
     });
 }
+function createSlideBack(projets){
+    // Role : crée les slides projet dans le swiper
+    // parametre : projets - fichier json avec les éléments de chaque projet
+    // retour : rien
+        let swiper = document.getElementById("wrapperBack")
+        swiper.innerHTML = ""
+        projets.forEach(projet => {
+            let pics = recupPicto(projet.pictos)
+            let libs = recupLib(projet.librairies)
+            swiper.innerHTML += `<div class="swiper-slide slide-back">
+                <div class="card-inner">
+                    <div class="card-front contain-img-back">
+                        <div class="projetBack-img"><img src="assets/captures-projets/${projet.image}" alt="copie d'écran du projet ${projet.titre}"></div>
+                        <div class="projet-back-filtre"></div>
+                        <div>
+                            <h4 class="large-11 mrlauto text-center">${projet.titre}</h4>
+                            <p class="large-11 mrlauto mt32">${projet.description}</p>
+                        </div>
+                        <div class="large-11 mrlauto flex justify-between mt32">
+                            <p>${projet.date}
+                            <p class="cta-card">+</p>        
+                        </div>
+                    </div>
+                    <div class="card-back">
+                        <div>
+                            <h4 class="large-11 mrlauto text-center">${projet.type}</h4>
+                            <div class="flex gap16 mt32 align-center justify-center">
+                                ${pics}
+                                ${libs}
+                            </div>
+                            <p class="large-11 mrlauto mt32 mb80">${projet.objectif}</p>
+                        </div>
+                        <a class="large-11 mrlauto flex justify-center" target="_blank" href="${projet.lien}">- Voir le projet -</a>
+                    </div>
+                </div>
+            </div>`
+        });
+    }
 
 
 function recupPicto(elements){
@@ -214,11 +293,11 @@ function recupLib(elements){
 
 
 
-function flipCard(){    
+function flipCardFront(){    
 // role : retourne les carte projets au clic
 // parametres : aucun
 // retour : aucun
-    let swiperSlides = document.querySelectorAll(".swiper-slide")
+    let swiperSlides = document.querySelectorAll(".slide-front")
     swiperSlides.forEach(swiperSlide =>{
         let cardInner = swiperSlide.querySelector(".card-inner")
         swiperSlide.addEventListener("click", (e)=>{
@@ -226,6 +305,18 @@ function flipCard(){
         })
     })
 }
+function flipCardBack(){    
+    // role : retourne les carte projets au clic
+    // parametres : aucun
+    // retour : aucun
+        let swiperSlides = document.querySelectorAll(".slide-back")
+        swiperSlides.forEach(swiperSlide =>{
+            let cardInner = swiperSlide.querySelector(".card-inner")
+            swiperSlide.addEventListener("click", (e)=>{
+                cardInner.classList.toggle("flip-card")
+            })
+        })
+    }
 
 
 
