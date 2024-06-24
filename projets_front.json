@@ -7,7 +7,7 @@
         "date": "Janvier 2024",
         "pictos":["p-figma"],
         "librairies": [],
-        "objectif": "Prise en main l'outil de conception Figma et à comprendre les besoins des utilisateurs, à formuler des problématiques pertinentes et à concevoir des solutions innovantes.",
+        "objectif": "Prendre en main l'outil de conception Figma, comprendre les besoins des utilisateurs, formuler des problématiques pertinentes et concevoir des solutions innovantes.",
         "lien": "https://aldevweb.github.io/portfolio_aldev/moovizy"
     },
     {
@@ -15,21 +15,22 @@
         "image": "ruche.jpg",
         "description": "'La Ruche', découvrez nos miels traditionnels et respectueux, fruits d'un engagement profond envers l'apiculture durable.",
         "type": "Projet Front one-page",
+        "type": "Premier projet front One-Page",
         "date": "Janvier 2024",
         "pictos":["p-html", "p-css"],
         "librairies": [],
-        "objectif": "Prise en main des langages HTML et CSS, puis rendu responsive par la suite",
+        "objectif": "Apprentissage des langages HTML et CSS, suivi d'une adaptation responsive par la suite.",
         "lien": "https://aldevweb.github.io/ruche/"
     },
     {
         "titre": "Interno",
         "image": "interno.jpg",
         "description": "'Interno' : votre destination pour un design d'intérieur sur mesure, créatif et de qualité. Explorez nos services, projets et contactez notre équipe. Abonnez-vous à notre newsletter pour les dernières tendances.",
-        "type": "Projet front multipage",
+        "type": "Projet Front multipage",
         "date": "Janvier 2024",
         "pictos":["p-html", "p-css"],
         "librairies": [],
-        "objectif": "Application des connaissances HTML et CSS, mise en place du responsive design et découverte d'un formulaire de contact",
+        "objectif": "Utilisation des connaissances en HTML et CSS pour créer un design responsive, incluant la création d'un formulaire de contact.",
         "lien": "https://aldevweb.github.io/interno/"
     },
     {
@@ -40,7 +41,7 @@
         "date": "Février 2024",
         "pictos":["p-html", "p-css", "p-js"],
         "librairies": [],
-        "objectif": "Validation des acquis en HTML et CSS, avec notamment la gestion des flex-box et des positions. Ajout par la suite des animations javasrcipt et du menu burger",
+        "objectif": "Validation des compétences en HTML et CSS, y compris la maîtrise des flexbox et des positions. Intégration ultérieure d'animations JavaScript et d'un menu hamburger.",
         "lien": "https://aldevweb.github.io/mntn/"
     },
     {
@@ -51,7 +52,7 @@
         "date": "Février 2024",
         "pictos":["p-html", "p-css", "p-js"],
         "librairies": [],
-        "objectif": "Création d'un site absurde. Prise en main des outils IA tel ChatPT ou Bing puis ajout du menu burger avec javascript par la suite",
+        "objectif": "Création d'un site absurde en utilisant des outils d'IA tels que ChatGPT ou Bing, suivi de l'ajout d'un menu burger avec JavaScript.",
         "lien": "https://aldevweb.github.io/mmt/"
     },
     {
@@ -62,7 +63,7 @@
         "date": "Février 2024",
         "pictos":["p-html", "p-css", "p-js"],
         "librairies": [],
-        "objectif": "Intégration html et css de la page d'accueil ainsi que la page feu puis ajout du formulaire par la suite",
+        "objectif": "Intégration en HTML et CSS de la page d'accueil et de la page 'feu', suivie de l'ajout du formulaire par la suite.",
         "lien": "https://aldevweb.github.io/4_elements/"
     },
     {
@@ -73,18 +74,18 @@
         "date": "Mars 2024",
         "pictos":["p-html", "p-css", "p-js"],
         "librairies": [],
-        "objectif": "Prise en main ludique de javascript",
+        "objectif": "Initiation ludique à JavaScript.",
         "lien": "https://aldevweb.github.io/morpion/"
     },
     {
         "titre": "Application Météo",
         "image": "meteo-app.jpg",
         "description": "Suivez les prévisions météorologiques en temps réel avec notre application web (météo à 7 jour et heure par heure sur 24h avec précipitation, vent et fond d'écran interactif)",
-        "type": "Projet personnel",
+        "type": "Projet Front personnel",
         "date": "Mars 2024",
         "pictos":["p-html", "p-css", "p-js"],
         "librairies": [],
-        "objectif": "Prise en main du fonctionnement d'une API et d'une grid CSS",
+        "objectif": "Apprentissage du fonctionnement d'une API et de la mise en place d'une grille CSS.",
         "lien": "https://aldevweb.github.io/appli_meteo/"
     },
     {
@@ -95,7 +96,7 @@
         "date": "Mars 2024",
         "pictos":["p-html", "p-css", "p-js"],
         "librairies": [],
-        "objectif": "Vérification des acquis sur la sémantique, l'intégration dynamique et le responsive",
+        "objectif": "Validation des compétences en sémantique HTML, intégration dynamique et design responsive.",
         "lien": "https://aldevweb.github.io/dehors/"
     },
     {
@@ -106,7 +107,7 @@
         "date": "Avril 2024",
         "pictos":["p-html", "p-css", "p-js", "p-leaflet"],
         "librairies": ["swiperjs"],
-        "objectif": "Développement d'un site web incluant une page d'accueil et un template 'détail produits' statiques, un template dynamique pour la catégorie 'chaussures - baskets'. Le site doit être responsive, optimisé pour le référencement et l'accessibilité.",
+        "objectif": "Développement d'un site web comprenant une page d'accueil statique et un modèle de détail de produit, ainsi qu'un modèle dynamique pour la catégorie 'Chaussures - Baskets'. Le site sera responsive, optimisé pour le référencement et accessible.",
         "lien": "https://aldevweb.github.io/m_s/"
     }
 ]
