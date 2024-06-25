@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projet Jeu de combat</title>
+    <meta name="description" content="Projet d'étude back sur un jeu de combat multijoueur">
+    <link rel="stylesheet" href="librairies/swiper/swiper-bundle.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/swiper_projets.css">
+    <link rel="stylesheet" href="css/pagination_combat.css">
+    <link rel="stylesheet" href="librairies/aos-master/dist/aos.css">
+    <link rel="stylesheet" href="librairies/leaflet/dist/leaflet.css">
+    <link rel="shortcut icon" type="image/ico" href="assets/Logo-AL-developpement-web-black.ico">
+</head>
+<body data-theme="combat" data-style="normal">
+    <!-- Loader -->
+    <div id="loader">
+        <div class="logo-static"></div>
+        <div class="logo-moving"></div>
+        <div></div>
+    </div>
+    <!-- header -->
+    <header class="large-12 flex align-center justify-between">
+        <!-- picto a afficher format smartphone -->
+        <a href="#hero" class="d-none logo-burger" title="accueil"><div class="logo anim-moov logo-header curs-point"></div></a>
+        <!-- burger a afficher au format smartphone -->
+        <div class="burger d-none" title="menu">
+            <span class="top"></span>
+            <span class="middle"></span>
+            <span class="bottom"></span>
+        </div>
+        <!-- menu -->
+        <div class="menu large-12">
+            <div class="flex justify-between align-center large-12">
+                <!-- header gauche -->
+                <div class="flex align-center gap16">
+                    <!-- nav -->
+                    <nav class="pages">
+                        <ul class="flex align-center gap16">
+                            <li class="logo-menu"><a href="#hero" title="logo de ALDEV"><div class="logo anim-moov logo-header curs-point"></div></a></li>
+                            <li><a class="nav-page anim-moov" href="https://aldevweb.github.io/portfolio_aldev/#projets" title="lien de retour au portfolio">Retour aux projets</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <!-- header droit -->
+                <div class="flex align-center justify-end gap16">
+                    <!-- nav reseaux / contact -->
+                    <nav class="reseaux">
+                        <ul class="flex align-center gap16">
+                            <!--  <li><a class="curs-point" href="tel:+33666529277" title="lien pour m'appeler"><div class="picto p-phone"></div></a></li> -->
+                            <li><a class="curs-point" href="mailto:antoine.laugier.dev@gmail.com" title="lien pour m'envoyer un mail"><div  class="picto anim-moov p-mail"></div></a></li>
+                            <li><a target="_blank"  class="curs-point" href="https://www.linkedin.com/in/antoine-laugier/" title="lien vers ma page linkedIn - Nouvelle fenêtre"><div class="picto anim-moov p-linkedin "></div></a></li>
+                            <li><a target="_blank"  class="curs-point" href="https://github.com/ALDEVweb" title="lien vers ma page GitHub - Nouvelle fenêtre"><div class="picto anim-moov p-github"></div></a></li>    
+                            <li>
+                                <label for="switch-access" title="Typographie accessibilité">
+                                <div id="button-access" class="p-access curs-point anim-moov">
+                                    <input type="checkbox" class="checkbox" id="switch-access" name="switch-access">
+                                </div>
+                                </label>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="menu-blur">
+        <section class="large-10 small-10 mrlauto flex justify-center">
+            <div>
+                <div class="titre-combat-resp">
+                    <h1 class="text-center">Epic Clash:</h1>
+                    <h2  class="text-center">Lost Dungeon</h2>
+                </div>
+                <h3 class="mrlauto">Introduction</h3>
+            </div>
+            <div class="large-12 mrlauto flex justify-around align-center">
+                <div class="large-5 medium-7 small-12 pres-titre-moov">
+                    <p class="mt32">Epic Clash: Lost Dungeon est un jeu de combat multijoueur où les joueurs créent un personnage avec un pseudo et un mot de passe. Ils se battent ou se défendent à travers différentes pièces pour atteindre la sortie. Les points de vie sont gagnés ou perdus pendant les combats, et si tous les points de vie sont perdus, le personnage meurt, marquant la fin de la partie.</p>
+                </div>
+                <div class="large-3 medium-7 small-10 mt32-small"><img class="img-moov" src="assets/projet/combat/smart_combat.png" alt="smartphone avec l'application moovizy affiché"></div>
+            </div>
+        </section>
+        <section class="large-10 small-11 mrlauto">
+            <h3 class="mrlauto">Fonctionnalités</h3>
+            <div class="large-12 flex align-center justify-around mrlauto small-center">
+                <div class="large-3 medium-7 small-11">
+                    <!-- Slider main container - projet Projets -->
+                    <div class="swiper mrlauto">
+                        <!-- Additional required wrapper -->
+                        <div class="swiper-wrapper">
+                            <!-- Slides -->
+                            <div class="swiper-slide"><img src="assets/projet/combat/ecran_connexion.jpg" alt="ecran de connexion"></div>
+                            <div class="swiper-slide"><img src="assets/projet/combat/ecran_creation.jpg" alt="ecran de creation d'un personnage"></div>
+                            <div class="swiper-slide"><img src="assets/projet/combat/ecran_jeu.jpg" alt="ecran de jeu"></div>
+                        </div>
+                        <!-- If we need pagination -->
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+                <div class="mt32-small">
+                    <p class="text-center">Gestion des tickets d'assistance par chat</p>
+                    <p class="mt32 text-center">Espace dédié pour les vendeurs, techniciens, et clients</p>
+                    <p class="mt32 text-center">Historique des ventes et des tickets</p>
+                    <p class="mt32 text-center">Modification des mots de passe</p>
+                    <p class="mt32 text-center">Historique des actions</p>
+                </div>
+            </div>
+        </section> <!--  
+        <section class="large-10 small-11 mrlauto">
+            <h3 class="mrlauto">Extraits de code</h3>
+            <div class="mrlauto large-8 large-img"></div>
+        </section> -->
+    </main>
+    <footer class="large-10 small-11 mrlauto flex justify-center menu-blur">
+        <a class="text-center" href="https://aldevweb.github.io/portfolio_aldev/#projets">« Retour aux projets</a>
+    </footer>
+    <script src="librairies/swiper/swiper-bundle.js" defer></script>
+    <script src="librairies/aos-master/dist/aos.js" defer></script>
+    <script src="js/commun.js" defer></script>  
+    <script src="js/projets.js" defer></script>  
+</html>

@@ -1,0 +1,113 @@
+.swiper {
+    height: 700px;
+    z-index: 0;
+  }
+  
+  
+  
+  .swiper-pagination-bullet{ background-color: var(--color-text)}
+  .swiper-pagination-bullet-active{ background-color: var(--secondary-color);}
+  
+  
+  
+  .swiper-slide-pres{
+    width: 320px !important;
+    height: 520px;
+    perspective: 1000px;
+    margin-top: auto;
+    margin-bottom: auto;
+    cursor: pointer;
+  }
+  .projetFront-img { 
+    width: 100%;
+    height: 150px;
+  }
+  .contain-img-back{
+    position: relative;
+  }
+  .projetBack-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -2;
+    width: 100%;
+    height: 100%;
+  }
+  .projet-back-filtre{
+    background-color: rgba(0, 33, 34, 0.6);
+    border-radius: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+  }
+  .projetBack-img img{
+    border-radius: 10px;
+  }
+  .projetFront-img img, .projetBack-img img { 
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .card-inner {
+    width: 100%;
+    height: 100%;
+    perspective: 1000px;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform 0.999s;
+  }
+  
+  .swiper a {font-size: var(--font-size-p); padding: 16px;}
+  
+  /*.swiper-slide:hover .card-inner {
+    transform: rotateY(180deg);
+  }*/
+  
+  .flip-card{
+    transform: rotateY(180deg);
+  }
+  
+  .card-front,
+  .card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    padding: 32px 0;
+    background: rgba(41, 202, 207, 0.1);
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(15px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .card-front {
+    border-radius: 10px;
+    transform: rotateY(0deg);
+  }
+  
+  .card-back {
+    border-radius: 10px;
+    transform: rotateY(180deg);
+  }
+  
+  .cta-card{
+    font-weight: bolder;
+    font-size: 32px;
+  }
+
+  @media screen and (max-width: 620px) {
+
+    .swiperPres{width: 300px; height: 500px;}
+    .swiper-slide-pres{width: 300px !important; height: 420px;}
+    .card-back, .card-front {padding: 16px 0;}
+  }
+
+  @media screen and (min-width: 751px) and (max-width: 999px) {
+    .swiperPres{width: 660px;}
+  }

@@ -8,7 +8,7 @@
         "pictos":["p-html", "p-css", "p-js", "p-php"],
         "librairies": [],
         "objectif": "programmation orientée objet, prise en main de la session et gestion en AJAX, et application de la méthode de travail : analyse du cahier des charges, définition du modèle de données et de l'ergonomie, création des classes associées, spécification des contrôleurs et des templates.",
-        "lien": "http://combat.alaugier.mywebecom.ovh/jeu_combat/afficher_jeu.php"
+        "lien": "https://aldevweb.github.io/portfolio_aldev/combat"
     },
     {
         "titre": "TechoTb",
@@ -19,7 +19,7 @@
         "pictos":["p-html", "p-css", "p-js", "p-php"],
         "librairies": [],
         "objectif": "Sécurisation des comptes, gestion avancée du système de messagerie, gestion des champs en mode objet.",
-        "lien": "http://tickets.alaugier.mywebecom.ovh/ticketing/afficher_accueil.php"
+        "lien": "https://aldevweb.github.io/portfolio_aldev/ticket"
     },
     {
         "titre": "Pizz'@ la carte",
@@ -30,6 +30,6 @@
         "pictos":["p-html", "p-css", "p-js", "p-php"],
         "librairies": ["swiperjs"],
         "objectif": "Gestion avancée des comptes (hashage des mots de passe, vérification des mails par token, gestion des mots de passe oubliés), intégration de la gestion d'envoi d'e-mails, exploration approfondie du principe d'héritage.",
-        "lien": "http://pizza.alaugier.mywebecom.ovh/pizza/afficher_elaboration.php"
+        "lien": "https://aldevweb.github.io/portfolio_aldev/pizza"
     }
 ]

@@ -15,7 +15,6 @@
         "image": "ruche.jpg",
         "description": "'La Ruche', découvrez nos miels traditionnels et respectueux, fruits d'un engagement profond envers l'apiculture durable.",
         "type": "Projet Front one-page",
-        "type": "Premier projet front One-Page",
         "date": "Janvier 2024",
         "pictos":["p-html", "p-css"],
         "librairies": [],
