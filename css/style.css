@@ -71,6 +71,7 @@ li{
   --access: url("../assets/picto/access-black.png");
 }
 [data-theme="dark"]{
+  --back-filtre-color : rgba(0, 33, 34, 0.6);
   --background-color: #1b1b1b;
   --color-text: #ffffff;
   --tertiary-color: #d9d9d9;
@@ -83,6 +84,7 @@ li{
   --img-services: url("../assets/services/image-service.png");
 }
 [data-theme="light"]{
+  --back-filtre-color : rgba(202, 252, 253, 0.4);
   --background-color: #D9D9D9;
   --color-text: #000000;
   --tertiary-color: #1B1B1B;

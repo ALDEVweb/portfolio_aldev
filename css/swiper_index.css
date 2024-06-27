@@ -33,8 +33,11 @@
     width: 100%;
     height: 100%;
   }
+.back-txt-projet{
+  background-color: var(--back-txt-projet);
+}
   .projet-back-filtre{
-    background-color: rgba(0, 33, 34, 0.6);
+    background-color: var(--back-filtre-color);
     border-radius: 10px;
     position: absolute;
     top: 0;
