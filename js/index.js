@@ -228,7 +228,7 @@ function afficheMap(fondMap,iconCouleur){
 
 // Dark mode
 // récupération du body
-let body = document.querySelector("body")
+// déja fait dans commun.js
 // récupération du bouton
 let colorMode = document.getElementById("switch-mode")
 
