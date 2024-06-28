@@ -87,7 +87,8 @@ function removeMenu(){
 
 
 
-
+// récupération du body
+let body = document.querySelector("body")
 
 // switch access
 // récupération du bouton access
