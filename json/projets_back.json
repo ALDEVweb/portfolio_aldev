@@ -7,7 +7,7 @@
         "date": "Mai 2024",
         "pictos":["p-html", "p-css", "p-js", "p-php"],
         "librairies": [],
-        "objectif": "programmation orientée objet, prise en main de la session et gestion en AJAX, et application de la méthode de travail : analyse du cahier des charges, définition du modèle de données et de l'ergonomie, création des classes associées, spécification des contrôleurs et des templates.",
+        "objectif": "Programmation orientée objet, prise en main de la session et gestion en AJAX, et application de la méthode de travail : analyse du cahier des charges, définition du modèle de données et de l'ergonomie, création des classes associées, spécification des contrôleurs et des templates.",
         "lien": "https://aldevweb.github.io/portfolio_aldev/combat"
     },
     {
