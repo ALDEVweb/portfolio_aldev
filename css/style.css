@@ -839,7 +839,6 @@ les resolutions d'ecrans*/
       transition: 0.3s ease;
       left: 0;
     }
-    .burger-span
     .burger span.top {
       top: 0;
     }    
