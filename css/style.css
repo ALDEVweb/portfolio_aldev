@@ -826,12 +826,12 @@ les resolutions d'ecrans*/
       display: block;
       position: relative;
       cursor: pointer;
-      width: 40px;
+      width: 32px;
       height: 32px;
     }
     .burger span {
       position: absolute;
-      width: 36px;
+      width: 40px;
       height: 4px;
       background: var(--color-text);
       border-radius: 100px;
